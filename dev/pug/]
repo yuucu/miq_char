@@ -1,0 +1,38 @@
+window.onload = function() {
+  console.log("Hello, World!");
+
+  html2canvas(document.querySelector("#capture")).then(canvas => {
+    document.body.appendChild(canvas)
+  });
+
+  drawTest();
+
+
+
+};
+
+
+function drawTest(input){
+  var cv = document.getElementById("cv");
+  var ctx = cv.getContext('2d');
+  ctx.fillStyle = "#ccaf89";
+  ctx.font = "60px MiQglyph";    // サイズとフォント名を指定
+  ctx.fillStyle = "#ff0000";
+  ctx.fillText(input, 25, 160);
+}
+function clearCanvas() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    input: '',
+  },
+  methods: {
+    draw() {
+      console.log("aiueo");
+      drawTest(this.input);
+    }
+  }
+});

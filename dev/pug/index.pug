@@ -1,0 +1,29 @@
+extends _layout.pug
+
+block vars
+  include _config.pug
+  - var key = "top"
+  - var page = pages[key]
+
+block contents
+  .container
+
+    h1 miq ten
+    p
+
+
+    #app
+      | {{ input }}
+
+      .row
+        canvas#cv.mx-auto( width="360" height="240" )
+
+
+      .row.mt-4
+        textarea.form-control.col-md-8.mx-auto( rows="3" placeholder="みくてん" v-model="input" v-on:keyup="draw" v-on:keydown.enter="draw" ) 
+
+
+    .
+      <div id="capture" style="padding: 10px;>
+          <h4 style="color: #000; ">Hello world!</h4>
+      </div>

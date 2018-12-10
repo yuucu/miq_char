@@ -1,0 +1,15 @@
+@import "_reset.scss";
+
+@font-face {
+  font-family: "MiQglyph"; 
+  src: url("../font/MiQglyph.otf") format("opentype");
+}
+
+body *{
+  //font-family: 'MiQglyph';
+  //border: 1px solid #111;
+}
+
+canvas {
+  border: 1px solid #aaa;
+}
