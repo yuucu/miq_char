@@ -7,23 +7,16 @@ block vars
 
 block contents
   .container
+    p.p-4 setumei
 
-    h1 miq ten
-    p
+    .row.mt-4
+      textarea#input.form-control.col-md-8.mx-auto( rows="3" placeholder="ここに文字を入力してください" )
 
+    .row.mt-2
+      button#miq-btn.btn.btn-success.mx-auto( type="button" ) つくる
 
-    #app
-      | {{ input }}
-
-      .row
-        canvas#cv.mx-auto( width="360" height="240" )
-
-
-      .row.mt-4
-        textarea.form-control.col-md-8.mx-auto( rows="3" placeholder="みくてん" v-model="input" v-on:keyup="draw" v-on:keydown.enter="draw" ) 
+    .row.mt-4
+      canvas#cv.mx-auto( width="320" height="240" )
 
 
-    .
-      <div id="capture" style="padding: 10px;>
-          <h4 style="color: #000; ">Hello world!</h4>
-      </div>
+

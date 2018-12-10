@@ -49,5 +49,8 @@ table {
   font-family: "MiQglyph";
   src: url("../font/MiQglyph.otf") format("opentype"); }
 
+body {
+  font-family: 'MiQglyph'; }
+
 canvas {
   border: 1px solid #aaa; }

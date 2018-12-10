@@ -5,9 +5,12 @@
   src: url("../font/MiQglyph.otf") format("opentype");
 }
 
-body *{
-  //font-family: 'MiQglyph';
-  //border: 1px solid #111;
+body {
+  font-family: 'MiQglyph';
+}
+
+body * {
+  // border: 1px solid #111;
 }
 
 canvas {
