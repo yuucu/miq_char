@@ -7,7 +7,10 @@ block vars
 
 block contents
   .container
-    p.p-4 setumei
+    .row
+      p.p-4.col-8.mx-auto
+        | 下のフォームに文字を入力すると、みQ文字が画像として下に出力されます。
+        | <br>保存したものは自由に使ってください。
 
     .row.mt-4
       textarea#input.form-control.col-md-8.mx-md-auto.mx-4( rows="3" placeholder="ここに文字を入力してください" )
@@ -19,6 +22,5 @@ block contents
       img#new-image.mx-auto( width="1024" height="782" )
 
     .row.mt-3
-      button#save-btn.btn.btn-success.mx-auto( type="button" ) ほぞん
-
+      a#save-btn.btn.btn-success.text-white.mx-auto( href="" download ) 保存する
 

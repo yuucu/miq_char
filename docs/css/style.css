@@ -49,7 +49,10 @@ table {
   font-family: "MiQglyph";
   src: url("../font/MiQglyph.otf") format("opentype"); }
 
-body {
+header nav a {
+  font-family: 'MiQglyph'; }
+
+footer small {
   font-family: 'MiQglyph'; }
 
 canvas {
@@ -61,3 +64,6 @@ canvas {
   border: 1px solid #111;
   width: 320px;
   height: 240px; }
+
+#link h2 {
+  font-size: 18px; }
