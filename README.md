@@ -1,11 +1,11 @@
 # miq_char
-====
-
+https://satokibi.github.io/miq_char/
 
 Thanks
 -------
-- みQ文字フォント作成者様
-[kazy111](https://github.com/kazy111) https://github.com/kazy111/MiQglyph
+- みQ文字フォント作成者様  
+kazy111 https://github.com/kazy111/MiQglyph  
+Copyright (c) 2018 kazy111 <kazy@kazy111.info>
 
 License
 -------
