@@ -12,7 +12,7 @@ body * {
   //border: 1px solid #111;
 }
 
-header { nav { a { font-family: 'MiQglyph'; } } }
+header { nav { p { font-family: 'MiQglyph'; } } }
 
 footer { small { font-family: 'MiQglyph'; } }
 
@@ -30,6 +30,7 @@ canvas {
 }
 
 #link {
+  display: none;
   h2 {
     font-size: 18px;
   }
