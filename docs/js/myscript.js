@@ -23,6 +23,22 @@ window.onload = function() {
   };
 
 
+  var home_content = document.getElementById('home');
+  var link_content = document.getElementById('link');
+
+  document.getElementById('nav-title').onclick = function() {
+    $(link_content).hide();
+    $(home_content).fadeIn();
+  };
+  document.getElementById('nav-home').onclick = function() {
+    $(link_content).hide();
+    $(home_content).fadeIn();
+  };
+  document.getElementById('nav-link').onclick = function() {
+    $(home_content).hide();
+    $(link_content).fadeIn();
+  };
+
 };
 
 

@@ -7,21 +7,42 @@ block vars
 
 block contents
   .container
-    .row
-      .col-md-10.mx-auto
-        p.p-4
-          | 下のフォームに文字を入力すると、みQ文字が画像として下に出力されます。
-          | <br>保存したものは自由に使ってください。
 
-    .row.mt-4
-      textarea#input.form-control.col-md-8.mx-md-auto.mx-4( rows="3" placeholder="ここに文字を入力してください" )
+    #home
+      .row
+        .col-md-10.mx-auto
+          p.p-4
+            | フォームに文字を入力すると、みQ文字が画像として出力されます。
+            | <br>保存して自由に使ってください。
 
-    .row.mt-4
-      canvas#cv.mx-auto( width="1024" height="782" )
+      .row.mt-4
+        textarea#input.form-control.col-md-8.mx-md-auto.mx-4( rows="3" placeholder="ここに文字を入力してください" )
 
-    .row.my-3
-      img#new-image.mx-auto( width="1024" height="782" )
+      .row.mt-4
+        canvas#cv.mx-auto( width="1024" height="782" )
 
-    .row.mt-3
-      a#save-btn.btn.btn-success.text-white.mx-auto( href="" download ) 保存する
+      .row.my-3
+        img#new-image.mx-auto( width="1024" height="782" )
+
+      .row.mt-3
+        a#save-btn.btn.btn-success.text-white.mx-auto( href="" download ) 保存する
+
+    #link
+      .text-center.mt-5
+        h2.my-2 WEAR
+        a( href="https://wear.cannes.jp/" target="_blank" ) https://wear.cannes.jp/
+
+      .text-center.mt-5
+        h2.my-2 MiQさん
+        a( href="https://twitter.com/MiQ_WEAR" target="_blank" ) https://twitter.com/MiQ_WEAR
+
+      .text-center.mt-5
+        h2.my-2 kazy111 - みQ文字フォント
+        a( href="https://github.com/kazy111/MiQglyph" target="_blank" ) https://github.com/kazy111/MiQglyph 
+      
+
+
+      .mt-5.text-center
+        p.m-2 github
+        a.m-2( href="https://github.com/satokibi/miq_char"  target="_blank" ) https://github.com/satokibi/miq_char 
 

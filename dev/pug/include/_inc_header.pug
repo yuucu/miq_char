@@ -1,6 +1,7 @@
 header
   nav.navbar.navbar-light.bg-light.navbar-expand-sm
-    a.navbar-brand( href=pages["top"].url ) #{page.title}
+    .navbar-brand#nav-title
+      p p#{page.title}
     .
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
@@ -9,6 +10,8 @@ header
     .collapse.navbar-collapse#navbarSupportedContent
       ul.navbar-nav.mr-auto
         li.nav-item
-          a.nav-link( href=pages["top"].url ) Home
+          .nav-link#nav-home
+            p Home
         li.nav-item
-          a.nav-link( href=pages["link"].url ) Link
+          .nav-link#nav-link 
+            p Link
