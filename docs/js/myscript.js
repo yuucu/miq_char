@@ -2,10 +2,10 @@ window.onload = function() {
 
   var cv = document.getElementById("cv");
   var ctx = cv.getContext('2d');
-  var font_size = 56;
+  var font_size = 64;
   var initial_x = 64;
   var initial_y = 104;
-  var line_height = 1.1;
+  var line_height = 1.2;
   ctx.font = font_size + "px MiQglyph";
 
   var input = document.getElementById("input");
