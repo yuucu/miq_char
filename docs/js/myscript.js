@@ -26,17 +26,27 @@ window.onload = function() {
   var home_content = document.getElementById('home');
   var link_content = document.getElementById('link');
 
+  var home_nav = document.getElementById('nav-home');
+  var link_nav = document.getElementById('nav-link');
+
   document.getElementById('nav-title').onclick = function() {
     $(link_content).hide();
     $(home_content).fadeIn();
+    link_nav.classList.remove('active');
+    home_nav.classList.add('active');
   };
-  document.getElementById('nav-home').onclick = function() {
+
+  home_nav.onclick = function() {
     $(link_content).hide();
     $(home_content).fadeIn();
+    link_nav.classList.remove('active');
+    home_nav.classList.add('active');
   };
-  document.getElementById('nav-link').onclick = function() {
+  link_nav.onclick = function() {
     $(home_content).hide();
     $(link_content).fadeIn();
+    home_nav.classList.remove('active');
+    link_nav.classList.add('active');
   };
 
 };

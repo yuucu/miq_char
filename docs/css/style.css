@@ -49,6 +49,9 @@ table {
   font-family: "MiQglyph";
   src: url("../font/MiQglyph.otf") format("opentype"); }
 
+a {
+  text-decoration: none; }
+
 header nav p {
   font-family: 'MiQglyph'; }
 
@@ -69,3 +72,57 @@ canvas {
   display: none; }
   #link h2 {
     font-size: 18px; }
+
+.author {
+  text-transform: none;
+  font-size: 0.4em;
+  font-weight: normal;
+  padding: 4px 8px;
+  margin-left: 3px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  position: relative;
+  top: -7px;
+  color: #393939; }
+
+.author:hover {
+  background: #249db3;
+  color: #ffffff;
+  text-decoration: none; }
+
+header nav p {
+  font-family: 'MiQglyph'; }
+
+footer small {
+  font-family: 'MiQglyph'; }
+
+canvas {
+  display: none;
+  width: 320px;
+  height: 240px; }
+
+#new-image {
+  border: 1px solid #111;
+  width: 320px;
+  height: 240px; }
+
+#link {
+  display: none; }
+  #link h2 {
+    font-size: 18px; }
+
+.author {
+  text-transform: none;
+  font-size: 0.6em;
+  font-weight: normal;
+  padding: 4px 8px;
+  margin-left: 3px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  position: relative;
+  top: -4px;
+  color: #393939; }
+
+.author:hover {
+  background: #249db3;
+  color: #ffffff; }
